@@ -15,42 +15,97 @@
 <body>
   <header>
     <div class="navbar">
-        <div class="logo"><a href="#"></a>
-            <ul class="menu">
-                <a class="btn" href="index.html">Inicio</a>
-                <a class="btn" href="projetos.html">Projetos</a>
-                <a class="btn" href="carreira.html">Carreira</a>
-                <a class="btn" href="#">Contato</a>
-            </ul>
-        </div>
+      <img src="img/avatar.png" alt="Logo" class="logo" href="index.html">          
+      <div class="menu">
+        <a class="btn" href="index.html">Home</a>
+        <a class="btn" href="#">Conhecimentos</a>
+        <a class="btn" href="#">Sobre</a>
+        <a class="btn" href="#">Contato</a>
+        <img src="img/github.png" alt="GitHub" class="img-github">
+        <img src="img/linkedin.png" alt="Linkedin" class="img-linkedin">
+      </div>
     </div>
   </header>
   
   <main>
-    <section class="curriculo">
-      <h1 id="nome">Pedro Vinícius Machado Simões Rodrigues</h1>
-        <h2><strong>Graduando Sistemas de Informacão</strong></h2>
-        <h3>Universidade Castelo Branco</h3>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Photoshop</li>
-          <li>Excel</li>
-          <li>Word</li>
-      <h3>Objetivos</h3>
-        <p>Aprender com profissionais experientes na area de programacao, crescer na carreira de tecnologia.</p>
-      <h3>Qualidades</h4>
-        <p>Focado, proativo, comunicativo.</p>
+    <section id="main-content">
+      <div class="main-content-text">
+        <p class="hello">Hello world, My name is Pedro.</p>
+        <p class="nome"> Pedro Rodrigues</p>
+        <p class="profissao">Desenvolvedor Front-end</p>
+        <p class="texto-main-content">Foco em aplicações Web e mobile.</p>
+      </div> 
+      <div class="banner-direita">
+        <img src="img/avatar-pc4.png" alt="Memoji Coding" class="avatar-pc">
+      </div>
     </section>
 
-    <section class="descricao">
+    <section class="sobre">
+      <div class="container-sobre">
+        <p class="sobre-mim">Sobre mim</p>
+        <p class="texto-quem-sou-eu">Amante da tecnologia que estão presentes na minha vida. Sou uma pessoa com muitas ideias
+          e que nas horas vagas busca fazer com que elas existem. Procuro sempre ter uma ideia para criar
+          soluções para nossos problemas em nossas rotinas.</p>
+        <button class="btn-cv">Download CV</button>
+      </div>
     </section>
 
-
+    <section class="conhecimentos">
+      <h1 class="title-conhecimento">Conhecimentos</h1>
+      <div class="container">
+        <div class="box">
+        <div class="image">
+           <img src="img/html.png" class="img-responsive">
+        </div>
+        <div class="name_job">HTML</div>
+          <!-----<div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>-->
+          <p class="description"> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+        </div>
+        <div class="box">
+          <div class="image">
+          <img src="img/python.png" alt="">
+          </div>
+      <div class="name_job">Python</div>
+            <!-----<div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>-->
+          <p class="description"> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p>
+        </div>
+        <div class="box">
+          <div class="image">
+           <img src="img/react.png" alt="">
+          </div>
+          <div class="name_job">React</div>
+            <!-----<div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>-->
+          <p class="description"> Lorem ipsum dolor sitamet, stphen hawkin so adipisicing elit. Ratione disuja doloremque reiciendi nemo.</p> 
+        </div>
+      </div>
+    </section>
   </main>
 
 
   <footer class="rodape">
     <a>Designed and created by Pedro Rodrigues</a>
+    <div class="social-media-footer">    
+      <img src="img/github.png" class="github-footer">
+      <img src="img/linkedin.png" class="linkedin-footer">
+    </div>
   </footer>
 </body>
 </html>

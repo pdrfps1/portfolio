@@ -1,0 +1,94 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background:#2F80ED;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.menu{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.curriculo{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.rodape{
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content:center;    
+    flex-direction: row;
+}
+
+.btn{
+    letter-spacing: 1px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.507);
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%; 
+    background-color: #2F80ED;
+}
+
+#card-1{
+    background-color: black;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+#img-gaming{
+    display: inline-block;
+    width: 220px;
+    max-width: max-content;
+    height: 100%;
+    margin-left: 1rem;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 5px black;
+}
+#descricao{
+    margin-left: 1rem;
+    text-shadow: 2px 2px 2px black;
+    background-color: linear-gradient(rgba(255,255,255));
+    width: max-content;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+h4{
+    border-bottom: 1px solid #224675;
+}
