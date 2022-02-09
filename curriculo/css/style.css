@@ -103,6 +103,7 @@ body {
 
 #main-content {
   display: flex;
+  flex-direction: row;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -186,9 +187,8 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   margin-bottom: 5rem;
   font-size: 1.2rem;
 }
@@ -198,25 +198,26 @@ body {
   font-weight: 700;    
   font-size: 34px;
   border-bottom: 1px solid #8e44ad;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
+  gap: 3rem;
 }
 
 .container .box {
-  width: calc(33% -10px);
+  width: calc(33% - 0px);
   background: rgb(40, 40, 40);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   padding: 20px 20px;
-  border-radius: 5px;
+  border-radius: 5px; 
   border: 2px solid #8e44ad;
 }
 
@@ -243,12 +244,10 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  object-fit: cover;
   border: 2px solid #fff;
 }
 
 .box p {
-  text-align: justify;
   margin-top: 8px;
   font-size: 1rem;
   font-weight: 400;
