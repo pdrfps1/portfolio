@@ -32,7 +32,6 @@ def jogar():
     else:
         imprime_mensagem_perdedor(palavra_secreta)
 
-
 def desenha_forca(erros):
     print("  _______     ")
     print(" |/      |    ")
@@ -83,8 +82,6 @@ def desenha_forca(erros):
     print("_|___         ")
     print()
 
-
-
 def imprime_mensagem_vencedor():
     print("Parabéns, você ganhou!")
     print("       ___________      ")
@@ -97,7 +94,6 @@ def imprime_mensagem_vencedor():
     print("           ) (          ")
     print("         _.' '._        ")
     print("        '-------'       ")
-
 
 def imprime_mensagem_perdedor(palavra_secreta):
     print("Puxa, você foi enforcado!")
@@ -140,6 +136,7 @@ def imprime_mensagem_abertura():
     print("*********************************")
 
 def carrega_palavra_secreta():
+
     arquivo = open("palavras.txt", "r")
     palavras = []
 
