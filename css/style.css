@@ -55,7 +55,7 @@ body {
 }
 
 .img-linkedin:hover {
-  content: url("/img/linkedin-roxo.png");
+  content: url("../img/linkedin-roxo.png");
   width: 32px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .img-github:hover {
-  content: url("/img/github-roxo.png");
+  content: url("../img/github-roxo.png");
   width: 32px;
 }
 
