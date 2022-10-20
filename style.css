@@ -259,7 +259,7 @@ body {
 }
 
 .container .box {
-  width: calc(33% - 0px);
+  width: calc(33% - 5px);
   background: rgb(40, 40, 40);
   display: flex;
   flex-direction: column;
@@ -476,3 +476,73 @@ body {
  .btn-cssbuttons:hover ul li:nth-child(3) a {
   transition-delay: 0.25s;
  }
+
+
+ form {
+  background: #8e44ad;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+  width: 45rem;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+input {
+  width: 30rem;
+  border: 2px solid black;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px black;
+}
+
+input[type="text"] {
+  font-size: 19px;
+}
+
+select {
+  width: 30rem;
+  border: 2px solid black;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px black;
+}
+
+select[name="country"] {
+  font-size: 18px;
+}
+
+textarea {
+  width: 30rem;
+  border: 2px solid black;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px black;
+}
+
+textarea[name="subject"] {
+  font-size: 18px;
+}
+
+.btn-alt {
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  height: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background: none;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.5s linear;
+  padding: 0.5rem 0.5rem;
+}
+
+.btn-alt:hover {
+  background: #ffffff;
+  color: #8e44ad;
+}
